@@ -1,0 +1,89 @@
+Last login: Mon Jul 15 16:16:33 on ttys001
+vihaan@satyas-MBP ~ % nslookup https://www.facebook.com/
+Server:		192.168.2.1
+Address:	192.168.2.1#53
+
+** server can't find https://www.facebook.com/: NXDOMAIN
+
+vihaan@satyas-MBP ~ % nslookup www.facebook.com  
+Server:		192.168.2.1
+Address:	192.168.2.1#53
+
+Non-authoritative answer:
+www.facebook.com	canonical name = star-mini.c10r.facebook.com.
+Name:	star-mini.c10r.facebook.com
+Address: 31.13.71.36
+
+vihaan@satyas-MBP ~ % ifconfig/all
+zsh: no such file or directory: ifconfig/all
+vihaan@satyas-MBP ~ % ipconfig/all
+zsh: no such file or directory: ipconfig/all
+vihaan@satyas-MBP ~ % ipconfig /all
+usage: ipconfig <command> <args>
+where <command> is one of waitall, getifaddr, ifcount, getoption, getiflist, getsummary, getpacket, getv6packet, getra, set, setverbose
+vihaan@satyas-MBP ~ % nslookup www.github.com
+Server:		192.168.2.1
+Address:	192.168.2.1#53
+
+Non-authoritative answer:
+www.github.com	canonical name = github.com.
+Name:	github.com
+Address: 140.82.113.3
+
+vihaan@satyas-MBP ~ % nslookup www.google.com 
+Server:		192.168.2.1
+Address:	192.168.2.1#53
+
+Non-authoritative answer:
+Name:	www.google.com
+Address: 142.250.80.100
+
+vihaan@satyas-MBP ~ % ipconfig /all          
+usage: ipconfig <command> <args>
+where <command> is one of waitall, getifaddr, ifcount, getoption, getiflist, getsummary, getpacket, getv6packet, getra, set, setverbose
+vihaan@satyas-MBP ~ % ping 31.13.71.36
+PING 31.13.71.36 (31.13.71.36): 56 data bytes
+64 bytes from 31.13.71.36: icmp_seq=0 ttl=56 time=19.966 ms
+64 bytes from 31.13.71.36: icmp_seq=1 ttl=56 time=19.684 ms
+64 bytes from 31.13.71.36: icmp_seq=2 ttl=56 time=23.340 ms
+64 bytes from 31.13.71.36: icmp_seq=3 ttl=56 time=20.874 ms
+64 bytes from 31.13.71.36: icmp_seq=4 ttl=56 time=20.313 ms
+64 bytes from 31.13.71.36: icmp_seq=5 ttl=56 time=20.607 ms
+64 bytes from 31.13.71.36: icmp_seq=6 ttl=56 time=21.556 ms
+64 bytes from 31.13.71.36: icmp_seq=7 ttl=56 time=23.862 ms
+64 bytes from 31.13.71.36: icmp_seq=8 ttl=56 time=30.117 ms
+64 bytes from 31.13.71.36: icmp_seq=9 ttl=56 time=27.206 ms
+64 bytes from 31.13.71.36: icmp_seq=10 ttl=56 time=24.395 ms
+64 bytes from 31.13.71.36: icmp_seq=11 ttl=56 time=38.725 ms
+64 bytes from 31.13.71.36: icmp_seq=12 ttl=56 time=20.778 ms
+64 bytes from 31.13.71.36: icmp_seq=13 ttl=56 time=29.121 ms
+64 bytes from 31.13.71.36: icmp_seq=14 ttl=56 time=19.479 ms
+64 bytes from 31.13.71.36: icmp_seq=15 ttl=56 time=20.623 ms
+64 bytes from 31.13.71.36: icmp_seq=16 ttl=56 time=20.639 ms
+64 bytes from 31.13.71.36: icmp_seq=17 ttl=56 time=19.937 ms
+64 bytes from 31.13.71.36: icmp_seq=18 ttl=56 time=20.164 ms
+64 bytes from 31.13.71.36: icmp_seq=19 ttl=56 time=22.610 ms
+64 bytes from 31.13.71.36: icmp_seq=20 ttl=56 time=21.944 ms
+64 bytes from 31.13.71.36: icmp_seq=21 ttl=56 time=28.548 ms
+64 bytes from 31.13.71.36: icmp_seq=22 ttl=56 time=20.286 ms
+64 bytes from 31.13.71.36: icmp_seq=23 ttl=56 time=20.900 ms
+64 bytes from 31.13.71.36: icmp_seq=24 ttl=56 time=23.406 ms
+64 bytes from 31.13.71.36: icmp_seq=25 ttl=56 time=24.883 ms
+Request timeout for icmp_seq 26
+64 bytes from 31.13.71.36: icmp_seq=27 ttl=56 time=22.071 ms
+64 bytes from 31.13.71.36: icmp_seq=28 ttl=56 time=22.662 ms
+64 bytes from 31.13.71.36: icmp_seq=29 ttl=56 time=19.397 ms
+64 bytes from 31.13.71.36: icmp_seq=30 ttl=56 time=20.749 ms
+64 bytes from 31.13.71.36: icmp_seq=31 ttl=56 time=19.754 ms
+64 bytes from 31.13.71.36: icmp_seq=32 ttl=56 time=25.197 ms
+64 bytes from 31.13.71.36: icmp_seq=33 ttl=56 time=33.348 ms
+64 bytes from 31.13.71.36: icmp_seq=34 ttl=56 time=20.178 ms
+64 bytes from 31.13.71.36: icmp_seq=35 ttl=56 time=20.507 ms
+64 bytes from 31.13.71.36: icmp_seq=36 ttl=56 time=23.041 ms
+64 bytes from 31.13.71.36: icmp_seq=37 ttl=56 time=28.667 ms
+64 bytes from 31.13.71.36: icmp_seq=38 ttl=56 time=21.547 ms
+64 bytes from 31.13.71.36: icmp_seq=39 ttl=56 time=19.949 ms
+64 bytes from 31.13.71.36: icmp_seq=40 ttl=56 time=19.783 ms
+64 bytes from 31.13.71.36: icmp_seq=41 ttl=56 time=20.774 ms
+64 bytes from 31.13.71.36: icmp_seq=42 ttl=56 time=20.561 ms
+s
